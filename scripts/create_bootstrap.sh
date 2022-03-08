@@ -262,7 +262,7 @@ fi
 sh /opt/scripts/saml2aws/saml2aws.sh
 
 export AWS_PROFILE="vdevops-main"
-ROLE_ARN='arn:aws:iam::422145674183:role/PROJECTS_FullAccessRole'
+ROLE_ARN='arn:aws:iam::1111111111111:role/PROJECTS_FullAccessRole'
 ROLE_SESSION_NAME='${PROFILE_NAME}_session'
 PROFILE_NAME='${PROFILE_NAME}'
 
